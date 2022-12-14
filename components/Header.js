@@ -16,7 +16,7 @@ function Header() {
 
     
    
-      <div className='text-2xl font-body ' ><h1 className='mb-4 cursor-pointer '>Wlicks</h1></div>
+      <div className='text-2xl font-sans font-semibold ' ><h1 className='mb-4 cursor-pointer '>Wlicks</h1></div>
     
   </header>
     
