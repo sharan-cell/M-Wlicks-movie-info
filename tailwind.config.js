@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
           body: ['Zen Dots', 'cursive'],
-          titil: ['Merienda', 'cursive'],
+          
       },
       screens: {
         "3xl": "2000px",
