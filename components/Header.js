@@ -6,7 +6,7 @@ import HeaderIcons from './HeaderIcons';
 function Header() {
   return (
     <header className=' flex flex-col sm:flex-row m-5 justify-between items-center h-auto'>
-    <div className='flex flex-grow sm:w-full justify-evenly max-w-2xl'>
+    <div className='flex flex-grow w-full justify-evenly max-w-2xl'>
     <HeaderIcons title="Home" Icon={HomeIcon} />
     <HeaderIcons title="Trending" Icon={BoltIcon} />
     <HeaderIcons title="Search" Icon={MagnifyingGlassIcon} />
