@@ -16,7 +16,7 @@ function Modal({Toggle,img, description, likes, date, title}) {
             <div className="flex-1 items-center bg-slate-500 mx-2 flex justify-center h-full w-full rounded-md group">Release Date: {date}</div>
           </div>
           </div>
-          <div><p className="mx-5 max-w-2xl font-titil   ">{description}</p></div>
+          <div className="overflow-y-scroll scrollbar-hide"><p className="mx-5 max-w-2xl font-mono antialiased overflow-y-scroll ">{description}</p></div>
           </div>
           <XCircleIcon className="absolute -top-5 -right-5 h-12 w-12 text-sky-200 z-50 " onClick={() => Toggle()}/>
         </div>
